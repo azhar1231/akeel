@@ -105,7 +105,7 @@ i{
  }
  .aminities-box::after{
     content: "->";
-    padding:1rem;
+    padding: .8rem 1rem;
     color: black;
     background-color: white;
     border-radius: 100%;
