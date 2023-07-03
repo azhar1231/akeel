@@ -279,19 +279,19 @@
     align-items: center;
     grid-template-columns: auto auto auto auto;
  }
- .aminities-box{
+ .aminities-box {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
-    margin: .7rem ;
+    margin: 0.6rem;
     background-color: white;
     border-radius: 1.5rem;
-    width: 15rem;
-    height: 15rem;
+    width: 14.5rem;
+    height: 14.5rem;
     box-shadow: 2px 2px 14px rgba(149, 149, 149, 0.438);
- }
+}
  .aminities-box i{
     padding: 2.5rem;
     font-size: 2rem;
@@ -300,8 +300,6 @@
     margin-bottom: 1rem;
     border-radius: 100%;
  }
-
-
 
 
 
