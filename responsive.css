@@ -1,0 +1,390 @@
+@media (max-width: 1200px){
+    .properties-section .box-container .boxf{
+        width: 18rem;
+     }
+     .properties-section .box-container .boxf .image-section{
+        width: 100%;
+        height: 14rem;
+     }
+     .properties-section .box-container .boxf .image-section .image-1{
+        width: 100%;
+     }
+     .properties-section .box-container .boxf .image-section p{
+        font-size: .5rem;
+        padding: .3rem;
+     }
+     .properties-section .box-container .boxf .image-section a{
+        font-size: .4rem;
+        
+     }
+     .properties-section .box-container .boxf .image-section .bottom{
+        bottom: 2rem;
+     }
+     .r a{
+        margin-left: .5rem ;
+     }
+     .properties-section .content-section{
+        padding: 2rem;
+        line-height: 1.5rem;
+     }
+     .properties-section .content-section p {
+         margin-top: 1rem;
+        }
+        .properties-section .content-section p strong{
+           font-size: 1.4rem;
+        }
+     .properties-section .content-section h2{
+        margin-top: .2rem;
+        font-size: 1.2rem;
+     }
+     .properties-section .content-section .paragraph-6{
+        font-size: .8rem;
+        margin: 1rem 0rem;
+        line-height: 1.2rem;
+     }
+     .properties-section .content-section .b-c{
+        line-height: 1rem;
+     }
+     .properties-section .content-section .b-c .b2{
+        padding: 0rem .5rem;
+     }
+     .properties-section .content-section hr{
+        margin: .8rem 0rem .8rem 0rem;
+     }
+     .properties-section .content-section .b-s .bl-c .image-2{
+        width: 35px;
+        height: 35px;
+     }
+     .properties-section .content-section .b-s .br-c i{
+        padding: .8rem;
+        margin-left: .5rem;
+     } 
+     .properties-section .content-section .b-s .bl-c p{
+        font-size: .8rem;
+        line-height: 1rem;
+        padding-bottom: 1rem;
+    }
+    .properties-section .content-section .b-c .b i{
+       font-size: 1rem;
+       padding: .2rem;
+       margin-left: .5rem;
+    }
+    .properties-section .content-section .b-s .bl-c p strong{
+         font-size: .8rem;
+     }
+ }
+  @media (max-width: 1000px){
+    .properties-section .box-container .boxf{
+        width: 16rem;
+     }
+     .properties-section .box-container .boxf .image-section{
+        width: 100%;
+        height: 14rem;
+     }
+     .properties-section .box-container .boxf .image-section .image-1{
+        width: 100%;
+     }
+     .properties-section .box-container .boxf .image-section p{
+        font-size: .5rem;
+        padding: .3rem;
+
+     }
+     .properties-section .box-container .boxf .image-section .bottom{
+        bottom: 2rem;
+     }
+     .r a{
+        margin-left: .5rem ;
+     }
+     .properties-section .content-section{
+        padding: 0rem 2rem 2rem 2rem;
+        line-height: 1.2rem;
+     }
+     .properties-section .content-section p {
+         margin-top: 0rem;
+        }
+        .properties-section .content-section p strong{
+           font-size: 1.2rem;
+        }
+     .properties-section .content-section h2{
+        margin-top: .2rem;
+        font-size: 1rem;
+     }
+     .properties-section .content-section .paragraph-6{
+        font-size: .6rem;
+        margin: .8rem 0rem;
+        line-height: .8rem;
+     }
+     .properties-section .content-section .b-c .b{
+        font-size: .6rem;
+     }
+     .properties-section .content-section .b-c{
+        line-height: 1rem;
+     }
+     .properties-section .content-section .b-c .b2{
+        padding: 0rem .5rem;
+     }
+     .properties-section .content-section hr{
+        margin: .8rem 0rem .8rem 0rem;
+     }
+     .properties-section .content-section .b-s .bl-c .image-2{
+        width: 35px;
+        height: 35px;
+     }
+     .properties-section .content-section .b-s .br-c i{
+        padding: .3rem;
+        margin-left: .5rem;
+     } 
+     .properties-section .content-section .b-s .bl-c p{
+        font-size: .5rem;
+        line-height: .7rem;
+        padding-bottom: 0rem;
+    }
+    .properties-section .content-section .b-c .b i{
+       font-size: 1rem;
+       padding: .5rem;
+       margin-left: .5rem;
+    }
+    .properties-section .content-section .b-s .bl-c p strong{
+         font-size: .6rem;
+     }
+ }
+@media (max-width:1000px) {
+    .my-information {
+        flex-direction: column;
+        line-height: 3rem;
+    }
+
+    .navigation-bar .first-ul {
+        display: none;
+    }
+
+    .home-section {
+        flex-direction: column;
+    }
+
+    .home-section .left-column-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-section .right-column-image {
+        margin-top: 5rem;
+    }
+
+    .right-column-image,
+    .left-column-content {
+        width: 100%;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .about-section .left-about-section{
+        margin-top: 2rem;
+    }
+    .about-section .left-about-section .image-2{
+        top: 17rem;
+    }
+    .service-section{
+        padding: 2rem;
+    }
+    .service-section .service-box-section{
+        flex-direction: column;
+    } 
+    .service-section .service-box-section .box{
+        width: 50%;
+        margin:0rem 0rem 2rem 0rem;
+    } 
+}
+
+@media (max-width: 850px){
+    .properties-section .box-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .properties-section .box-container .box-3 {
+        position: relative;
+        top: 2rem;
+        left: 50%;
+    }
+}
+@media (max-width: 550px){
+    .properties-section .box-container{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .properties-section .box-container .box-3 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .properties-section .box-container .boxf {
+        width: 16rem;
+        margin: 15px;
+    }
+
+ }
+
+
+
+
+
+
+
+
+@media (max-width:650px) {
+    .my-information a {
+        font-size: .7rem;
+    }
+    .home-section .left-column-content h1 {
+        font-size: 2.5rem;
+        line-height: 2.2rem;
+    }
+    .home-section .left-column-content .paragraph-2 {
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+    .home-section .left-column-content .button-2 p {
+        font-size: .8rem;
+        padding: 10px;
+        white-space: nowrap;
+    }
+    .about-section .right-about-section p{
+        line-height: .1rem;
+        font-size: .8rem;
+    }
+    .about-section .right-about-section .icons p i{
+      margin: .3rem 0rem;
+      padding: .5rem;
+    }
+
+    .about-section .right-about-section .paragraph-4{
+        line-height: .9rem;
+    }
+    .about-section .right-about-section .paragraph-5{
+        line-height: .8rem;
+        padding: .5rem 0rem .5rem .5rem;
+    }
+    .about-section .left-about-section .image-2{
+        top: 12rem;
+    }
+    .service-section{
+        padding: 2rem;
+    }
+    .paragraph{
+        font-size: .6rem;
+        padding: .1rem .6rem;
+    } 
+    .heading{
+        line-height: 2.5rem;
+       font-size: 2.5rem;
+    }
+    .service-section .service-box-section .box{
+        width: 70%;
+        margin:0rem 0rem 2rem 0rem;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:460px) {
+    .my-information .left-info-section {
+        flex-direction: column;
+        line-height: 1rem;
+    }
+    
+    .my-information .right-info-section {
+        line-height: 1rem;
+        margin-left: 13%;
+    }
+    
+    .my-information .right-info-section a .button-1 {
+        font-size: .6rem;
+    }
+    
+    .home-section {
+        margin-left: -2rem;
+    }
+    
+    .home-section .left-column-content .paragraph-1 {
+        white-space: nowrap;
+    }
+    
+    .home-section .left-column-content h1 {
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+    .home-section .left-column-content .paragraph-2 {
+        font-size: .5rem;
+        line-height: .8rem;
+        padding-left: 1rem;
+    }
+    .home-section .left-column-content .paragraph-1 {
+        font-size: .5rem;
+        line-height: 1rem;
+    }
+    
+    .home-section .left-column-content .button-2 p {
+        font-size: .6rem;
+        padding: 10px;
+        white-space: nowrap;
+    }
+    .about-section .left-about-section{
+        margin-top: 1rem;
+        margin-left: -2rem;
+    }
+    .about-section .right-about-section{
+        margin-left: -2rem;
+    }
+    .about-section .right-about-section p{
+        font-size: .6rem;
+    }
+    .about-section .right-about-section .icons p{
+        white-space: nowrap;
+    }
+    .about-section .right-about-section .icons p i{
+        margin-top: 0px;
+        background-color: pink;
+    } 
+    .about-section .left-about-section .image-2{
+        top: 6rem;
+    }
+    .service-section{
+        padding: 1rem;
+    }
+    .heading{
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+    .service-section .service-box-section .box{
+        width: 60%;
+        margin:0rem 0rem 2rem 0rem;
+    } 
+    .service-section .service-box-section .box p{
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+    .service-section .service-box-section .box img{
+        width: 10rem;
+    }
+    .service-section .service-box-section .box h2{
+        font-size: 1.3rem;
+    }
+    .properties-section .heading-section .heading{
+       white-space: nowrap;
+    } 
+}

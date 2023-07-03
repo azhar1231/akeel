@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    text-transform: capitalize;
+    transition: .2s ease-in;
+    scroll-behavior: smooth;
+    transition-timing-function: .3s ease-in-out;
+}
+a,i,button:hover{
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+li{
+    list-style: none;
+    color: white;
+    transition: .2s ease-in-out;
+}
+a:hover{
+    transition: .2s ease-in-out;
+    color: rgb(255, 0, 0);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+i{
+    color: rgb(255, 255, 255);
+}
+.btn p{
+    position: relative;
+    font-size: 1.1rem;
+    padding: 1rem 3rem;
+    background-color: rgb(255, 20, 20);
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.btn{
+    border: none;
+}
+.btn p::before{
+    content: "";
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: .4s ease-in-out;
+    transform: scale(0,1);
+    transform-origin: left;
+    z-index: 0;
+}
+ .btn p:hover{
+    box-shadow:  1px 1px 1px 1px rgb(134, 134, 134);
+    background-color: black;
+    color: black;
+ }
+ .btn p:hover::before{
+    z-index: -1;
+    transform: scale(1,1);
+ }
+ .container{
+    padding: 2rem .5rem 4rem .5rem;
+}
+.heading{
+    margin: 0rem 0rem 4rem 0rem;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3.5rem;
+}
+.heading-section{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2rem;
+    align-items: center;
+}
+.box-container{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+.paragraph{
+    display: inline;
+    background-color: rgb(255, 227, 227);
+    color: red;
+    margin: 1rem 0rem;
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
+ }
+ .aminities-box::after{
+    content: "\f047";
+    padding:1rem;
+    color: black;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    box-shadow: 2px 2px 14px rgba(149, 149, 149, 0.438);
+    bottom: -1rem;
+    
+ }
