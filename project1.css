@@ -43,7 +43,7 @@
     padding: 1.3rem;
 }
 .navigation-bar .image-icon img{
-    max-width: 60%;
+    max-width: 55%;
 }
 .first-ul{
     color: black;
@@ -62,7 +62,7 @@
 }
 .navigation-bar .logos i{
     color: black;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: .6rem .8rem;
     margin: 0rem .2rem;
     border-radius: 4px;
@@ -300,6 +300,9 @@
     margin-bottom: 1rem;
     border-radius: 100%;
  }
+
+
+
 
 
 
