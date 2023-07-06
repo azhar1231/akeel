@@ -267,6 +267,15 @@
 
 
 @media (max-width:650px) {
+    .navigation-bar .logos{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .navigation-bar .logos i{
+        font-size: 1rem;
+        padding: .4rem .6rem;
+        margin: 0rem .2rem;
+    }
     .my-information a {
         font-size: .7rem;
     }
@@ -344,6 +353,11 @@
 
 
 @media (max-width:460px) {
+    .navigation-bar .logos i{
+        font-size: .8rem;
+        padding: .35rem .55rem;
+        margin: 0rem .2rem;
+    }
     .my-information .left-info-section {
         flex-direction: column;
         line-height: 1rem;
@@ -367,8 +381,8 @@
     }
     
     .home-section .left-column-content h1 {
-        font-size: 2rem;
-        line-height: 1.8rem;
+        font-size: 1.6rem;
+        line-height: 1.3rem;
     }
     .home-section .left-column-content .paragraph-2 {
         font-size: .5rem;
